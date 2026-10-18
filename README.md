@@ -1,4 +1,4 @@
-# XRH66's Skill Repository
+# XRH66-Skills
 
 我个人制作的 Skill 仓库，用于优化我个人的工作流。
 
@@ -33,3 +33,8 @@ Skills/<name>/
 - 本仓库只保存 Skill 源码和必要文档，不作为安装目录。
 - `Checks/`、`*.zip` 属于本地记录和打包产物，不纳入版本控制。
 - 各版本目录内的来源说明、版权与许可文件随版本保留。
+
+## License
+
+- 本仓库原创内容（`project-library` 及本机新增内容）采用 MIT 许可，版权 (c) 2026 XRH66，见 [LICENSE](LICENSE)。
+- `delegate-to-deepseek-harness` 保留上游 MIT 许可与版权，见 [其版本内 LICENSE](Skills/delegate-to-deepseek-harness/versions/v1.0.0/LICENSE)；根许可不替代该第三方版权。

@@ -2,6 +2,7 @@
 
 - 本仓库是 `X:\SkillMaker` 的 Skill 源码仓库。技能入口为 `Skills/<name>/README.md`，当前版本内容位于 `Skills/<name>/versions/<version>/`。
 - 当前维护两份技能：`project-library`（用户原创）与 `delegate-to-deepseek-harness`（基于 LomoMao 上游的本机定制，MIT）。
+- 许可：原创内容采用 MIT（版权 XRH66）；delegate 版本保留上游 MIT 与版权，不覆盖第三方归属。
 - 版本目录一经发布不得覆写。更新技能时新建版本目录，并同步更新 `Skills/<name>/README.md` 的当前版本和版本说明。
 - 版本目录内保持完整可运行内容；相对引用必须能从该版本目录解析，新增或移动文件时一并修正。
 - 保留各技能的来源说明、版权与许可；修改时不得移除上游归属。
