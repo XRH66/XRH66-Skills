@@ -1,0 +1,3 @@
+interface:
+  display_name: "项目文件库"
+  short_description: "以六类核心内容建立适合当前项目的文件库，维护状态并支持不同代理接续工作"

@@ -1,0 +1,24 @@
+# 本地记录与打包产物
+Checks/
+*.zip
+
+# 依赖与临时文件
+node_modules/
+*.tmp
+*.log
+*.bak
+__pycache__/
+
+# 敏感配置
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
