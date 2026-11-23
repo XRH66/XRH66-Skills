@@ -134,7 +134,7 @@ def clean_factory_scene():
 
 
 def stats(objs):
-    """求值后每个对象的面数 / 三角面占比 / n-gon 数（AGENTS：quad 为主）。"""
+    """求值后每个对象的面数 / 三角面占比 / n-gon 数（项目规范：quad 为主）。"""
     import bpy
     dg = bpy.context.evaluated_depsgraph_get()
     res = {}

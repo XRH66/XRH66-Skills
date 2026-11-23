@@ -75,7 +75,7 @@ TEMPLATES = {
         nodes=[dict(id="root", name="<整件名称>", parent=None, role="assembly", count=1, level="<整件目标级>",
                     evidence=["<整件局部放大 / 子视图切图>"]), dict(NODE_T)]),
     "selfcheck.json": dict(nodes={"<节点 id>": dict(checked={k: "<结论>" for k in CHECKS}, found="", changed="")},
-                           blockout_compare="<粗模同视角对比图路径>", cold_read="<可选：冷读子代理的结论>", user_review="pending"),
+                           blockout_compare="<粗模同视角对比图路径>", cold_read="<可选：冷读（没参与本任务的读者）的结论>", user_review="pending"),
     "measure.json": {"<参数名>": dict(value=None, source="<参考上的哪处读数（图 / 像素坐标 / 比例）>")},
     "accept.json": dict(compare_image="", iou=None, iou_min=None, iou_min_note="<及格线的理由（看结果前定；口径见 fitting.md §0）>",
                         ious=[dict(view="<可选：多视图逐视图>", iou=None, iou_min=None)],
