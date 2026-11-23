@@ -22,8 +22,8 @@
 
 照参考图在 Blender 里做程序化硬表面建模的通用方法论：分阶段做法与过关判据、回退信号、数学原理、代码索引和领域无关的几何原语。用户原创。
 
-当前版本：`v1.0.0`
-路径：[Skills/blender-reference-modeling/versions/v1.0.0/](Skills/blender-reference-modeling/versions/v1.0.0/)
+当前版本：`v1.0.1`
+路径：[Skills/blender-reference-modeling/versions/v1.0.1/](Skills/blender-reference-modeling/versions/v1.0.1/)
 
 ## 结构
 
