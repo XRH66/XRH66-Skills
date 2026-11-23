@@ -15,8 +15,15 @@
 
 用于把边界清晰的实现工作委派给 DeepSeek Harness，由 GPT 负责规划、审查和独立验收。基于 [LomoMao/delegate-to-deepseek-harness](https://github.com/LomoMao/delegate-to-deepseek-harness) 的本机定制，保留 MIT 许可。
 
+当前版本：`v1.0.2`
+路径：[Skills/delegate-to-deepseek-harness/versions/v1.0.2/](Skills/delegate-to-deepseek-harness/versions/v1.0.2/)
+
+### blender-reference-modeling
+
+照参考图在 Blender 里做程序化硬表面建模的通用方法论：分阶段做法与过关判据、回退信号、数学原理、代码索引和领域无关的几何原语。用户原创。
+
 当前版本：`v1.0.0`
-路径：[Skills/delegate-to-deepseek-harness/versions/v1.0.0/](Skills/delegate-to-deepseek-harness/versions/v1.0.0/)
+路径：[Skills/blender-reference-modeling/versions/v1.0.0/](Skills/blender-reference-modeling/versions/v1.0.0/)
 
 ## 结构
 
@@ -36,5 +43,5 @@ Skills/<name>/
 
 ## License
 
-- 本仓库原创内容（`project-library` 及本机新增内容）采用 MIT 许可，版权 (c) 2026 XRH66，见 [LICENSE](LICENSE)。
+- 本仓库原创内容（`project-library`、`blender-reference-modeling` 及本机新增内容）采用 MIT 许可，版权 (c) 2026 XRH66，见 [LICENSE](LICENSE)。
 - `delegate-to-deepseek-harness` 保留上游 MIT 许可与版权，见 [其版本内 LICENSE](Skills/delegate-to-deepseek-harness/versions/v1.0.0/LICENSE)；根许可不替代该第三方版权。
